@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    
+    <div class="header">
+    </div>
+    
+    <div class="sidebar">
+      <div class="page-title">Dashboard</div>
+      <div class="navbar">
+        <ul>
+         <li>Home</li>
+         <li>profile</li>
+         <li>messages</li>
+         <li>History</li>
+         <li>Tasks</li>
+         <li>Communities</li>
+        </ul> 
+      </div>
+         
+      <div class="user-menu">
+         <li>Settings</li>
+         <li>Support</li>
+         <li>Privacy</li>
+        </ul>
+    </div>
+    </div>
+    
+    <div class="content">
+    </div>
+  </div>
+</body>
+
+</html>
