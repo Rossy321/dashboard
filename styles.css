@@ -30,6 +30,14 @@ body {
   row-gap: 0.25rem;
 }
 
+.icon img {
+ height: 50px;
+ width: 50px;
+ vertical-align: middle; 
+}
+
+
+
 .page-title {
   color: white;
   font-size: 30px;
@@ -43,13 +51,11 @@ body {
   list-style-type:  none;
 }
 
-.user-menu {
+.user-menu li {
   color: white;
   font-size: 24px;
   padding-left:30px;
-  list-style-type:  none;
-  
-  
+  list-style-type:  none; 
 }
 
 
