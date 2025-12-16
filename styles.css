@@ -28,7 +28,7 @@ body {
   display: grid; 
   grid-template-rows: repeat(3, auto);
   row-gap: 0.25rem;
-}
+  }
 
 .icon img {
   height: 50px;
@@ -43,21 +43,21 @@ body {
   color: white;
   font-size: 30px;
   padding-left: 30px;
+  margin-top: 10px;
 }
 
-.navbar ul {
-  color: white;
-  font-size: 24px;
-  padding-left:30px;
-  list-style-type:  none;
-}
 
-.user-menu li {
+.user-menu ul, .navbar ul {
   color: white;
   font-size: 24px;
   padding-left:30px;
   list-style-type:  none; 
+  display:grid;
+  gap: 10px;
+  margin-top: 5px; 
 }
+
+
 
 
 
