@@ -17,10 +17,34 @@ body {
 
 .header {
   background-color: white;
-  grid-area: 1 / 1 / 2 / 3;
+  grid-area: 1 / 2 / 2 / 4;
   height: 300px;
+  display: grid;
+  grid-template-rows: 1fr 3fr; 
+  grid-template-columns: 3fr 1fr;  
+
+}
+
+
+
+.search-container input {
+  width: 700px;
+  margin-top: 30px;
+  
   
 }
+
+.search-container img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.search-container {
+  margin-left: 30px;
+}
+
+
 
 .sidebar {
   background-color: blue;
@@ -33,7 +57,6 @@ body {
 .icon img {
   height: 50px;
   width: 50px;
-  fill: white;
   vertical-align: middle;
   filter: brightness(0) invert(1);
 }
@@ -44,6 +67,13 @@ body {
   font-size: 30px;
   padding-left: 30px;
   margin-top: 10px;
+}
+
+.page-title img {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  filter: brightness(0) invert(1);
 }
 
 
