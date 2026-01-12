@@ -167,6 +167,19 @@ weight: 50px;
 
 .projects {
   grid-area: 1 / 1 / 11 / 3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 10px;
+
+}
+
+.projects span {
+  grid-column: span 2;
+}
+
+.projects .card {
+  height: 200px;
   background-color: red;
 }
 
@@ -178,8 +191,18 @@ weight: 50px;
 .trending {
   grid-area: 6 / 3 / 11 / 4;
   background-color: pink;
-
 }
+
+
+
+/* OLD FLEXBOX CODE FOR CARDS
+.projects .card {
+  height: 200px;
+  background-color: red; 
+  flex: 0 0 calc((100% - 20px) / 3);
+  box-sizing: border-box;
+}
+  /*
 
 
 
