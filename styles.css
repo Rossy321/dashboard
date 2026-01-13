@@ -169,18 +169,29 @@ weight: 50px;
   grid-area: 1 / 1 / 11 / 3;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin-left: 10px;
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 
 }
 
-.projects span {
+.projects h2 {
   grid-column: span 2;
+  margin-bottom: 5px;
 }
 
 .projects .card {
   height: 200px;
-  background-color: red;
+  background-color: white;
+  background: linear-gradient(to right, yellow 5px, white 5px);
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right:100px;
+}
+
+.projects .card .text {
+  
 }
 
 .announcements {
