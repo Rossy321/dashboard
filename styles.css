@@ -186,26 +186,31 @@ weight: 50px;
   background-color: white;
   background: linear-gradient;
   border-radius: 5px;
-  padding-left: 20px;
-  padding-right: 100px;
+  padding: 15px 20px 15px 20px;
   background-image:
   linear-gradient(to right, yellow 5px, white 5px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card-icons {
   display:flex;
-  align-items: center;
-  justify-content: center;
+  align-self: flex-end;
 }
 
 .content ul {
   list-style-type: none;
 }
 
+.card-icons {
+  display: flex;
+  gap: 15px;
+}
+
 .card-icons .icon {
   width: 24px;
   height: 24px;
-  border: 2px solid red;
 }
 
 
