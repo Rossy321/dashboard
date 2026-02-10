@@ -66,10 +66,6 @@ body {
   flex-direction:column; 
 }
 
-.user-info span {
-  
-}
-
 .user-info p {
   font-size: 30px;
   
@@ -103,6 +99,7 @@ body {
   height: 40px;
   width: 100px;
   border-radius: 20px;
+  outline: none;
 }
 
 
@@ -163,7 +160,7 @@ weight: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 0.8fr;
   grid-template-rows: repeat(10, 1fr);  
-  padding-right: 20px;
+  padding: 0 20px 30px 0;
 }
 
 .projects {
@@ -250,7 +247,33 @@ weight: 50px;
 
 .trending {
   grid-area: 6 / 3 / 11 / 4;
-  background-color: pink;
+  background-color: grey;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.trending h2 {
+  margin-bottom: 25px;
+
+}
+
+.trending .card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 20px 30px 20px;
+}
+
+.trending-user {
+  display: flex;
+  align-items: center;
+
+}
+
+.trending img {
+  width: 50px;
+  height: 50px;
 }
 
 
