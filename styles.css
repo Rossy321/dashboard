@@ -115,6 +115,8 @@ weight: 50px;
   display: grid; 
   grid-template-rows: repeat(3, auto);
   row-gap: 0.25rem;
+  min-width: 260px;
+  
   }
 
 .sidebar img {
@@ -148,6 +150,11 @@ weight: 50px;
   display:grid;
   gap: 10px;
   margin-top: 5px; 
+}
+
+.navbar .icon {
+display: flex;
+wrapping: none;
 }
 
 
@@ -263,6 +270,8 @@ weight: 50px;
   background-color: white;
   border-radius: 5px;
   padding: 30px 20px 30px 20px;
+  display: grid;
+  gap: 10px;
 }
 
 .trending-user {
@@ -271,9 +280,30 @@ weight: 50px;
 
 }
 
-.trending img {
+.trending-image {
   width: 50px;
   height: 50px;
+}
+
+.trending-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.atom {
+  fill: gold
+}
+
+.butterfly {
+  fill: purple; 
+}
+
+.dice {
+  fill: red
+}
+
+.trending-text span {
+  font-weight: 700;
 }
 
 
