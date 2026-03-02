@@ -31,7 +31,8 @@ body {
 
 .search-container {
   display: flex;
-  padding-left: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 .search-container input {
@@ -40,7 +41,7 @@ body {
  box-sizing:border-box;
  background-color:  rgb(240, 240, 240);
  border: none;
- border-radius: 5px;
+ border-radius: 7px;
  
 }
 
@@ -62,14 +63,29 @@ body {
 }
 
 .user-image {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
+}
 
+.user-image  path:first-child { 
+  fill: black;
+}
+
+.user-image path:last-child { 
+  fill: red;
 }
 
 .user-image-alert {
   width: 50px;
   height: 50px;
+}
+
+.user-image-alert  path:first-child { 
+  fill: black;
+}
+
+.user-image-alert path:last-child { 
+  fill: red;
 }
 
 .user-text {
@@ -80,6 +96,11 @@ body {
 .user-info p {
   font-size: 30px;
   
+}
+
+.user-info-text {
+  margin-top: 5px;
+
 }
 
 .user-info img {
